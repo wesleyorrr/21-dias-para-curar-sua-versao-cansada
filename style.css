@@ -1,0 +1,562 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #ffffff;
+  color: #1a1a2e;
+  line-height: 1.5;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+section {
+  padding: 80px 0;
+}
+
+/* TAGS - versão rosa */
+.tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #ff5c8a, #ff3385);
+  color: white;
+  padding: 8px 18px;
+  border-radius: 40px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.tag.secondary {
+  background: #fce4ec;
+  color: #ff5c8a;
+}
+
+/* BOTÕES - gradiente rosa */
+.btn-primary, .btn-secondary, .btn-buy {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 14px;
+  transition: all 0.3s ease;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+}
+
+.btn-primary, .btn-buy {
+  background: linear-gradient(135deg, #ff5c8a, #ff3385);
+  color: white;
+  padding: 16px 32px;
+  box-shadow: 0 12px 20px -8px rgba(255, 92, 138, 0.4);
+}
+
+.btn-primary:hover, .btn-buy:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 25px -10px rgba(255, 92, 138, 0.6);
+}
+
+.btn-secondary {
+  border: 2px solid #ff5c8a;
+  color: #ff5c8a;
+  background: transparent;
+  padding: 14px 28px;
+}
+
+.btn-secondary:hover {
+  background: #ff5c8a;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(120deg, #fff5f7, #ffffff);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.hero-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 58px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #1e1e2a;
+}
+
+.hero-text h1 span {
+  color: #ff5c8a;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #4a5568;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.stats {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.stats div {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats strong {
+  font-size: 28px;
+  color: #ff5c8a;
+  font-weight: 800;
+}
+
+.stats span {
+  color: #4a5568;
+  font-size: 14px;
+}
+
+/* IMAGENS - RESPONSIVAS E CORRIGIDAS */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.ebook-card {
+  background: white;
+  padding: 20px;
+  border-radius: 40px;
+  box-shadow: 0 30px 50px rgba(0,0,0,0.1);
+  max-width: 380px;
+  width: 100%;
+}
+
+.ebook-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  object-fit: contain;
+}
+
+.solution-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.solution-image img {
+  max-width: 100%;
+  border-radius: 32px;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.05);
+}
+
+/* SEÇÃO DORES */
+.pain-section {
+  background: #fefaf8;
+}
+
+.pain-section h2, .solution-text h2, .bonus-section h2, .testimonial-section h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.pain-desc {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #4a5568;
+  font-size: 18px;
+}
+
+.pain-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.pain-card {
+  background: white;
+  padding: 40px 20px;
+  border-radius: 28px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+  transition: 0.2s;
+}
+
+.pain-card span {
+  font-size: 48px;
+}
+
+.pain-card h3 {
+  margin: 20px 0 12px;
+  font-size: 24px;
+}
+
+/* SOLUÇÃO */
+.solution-section {
+  background: white;
+}
+
+.solution-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.solution-text {
+  flex: 1;
+}
+
+.solution-text ul {
+  list-style: none;
+  margin: 30px 0;
+}
+
+.solution-text li {
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+/* BÔNUS */
+.bonus-section {
+  background: #fff5f7;
+}
+
+.bonus-section h2 span {
+  color: #ff5c8a;
+}
+
+.bonus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.bonus-card {
+  background: white;
+  padding: 35px 25px;
+  border-radius: 28px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* DEPOIMENTOS */
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 30px;
+  border-radius: 28px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.stars {
+  color: #ffb800;
+  font-size: 20px;
+  margin-bottom: 15px;
+  letter-spacing: 3px;
+}
+
+.testimonial-card p {
+  font-style: italic;
+  color: #2d3748;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* OFERTA */
+.offer-section {
+  background: linear-gradient(135deg, #ff5c8a, #ff80a5);
+  padding: 80px 0;
+}
+
+.offer-box {
+  background: white;
+  border-radius: 48px;
+  padding: 60px 40px;
+  text-align: center;
+  max-width: 850px;
+  margin: 0 auto;
+  box-shadow: 0 30px 50px rgba(0,0,0,0.2);
+}
+
+.timer-container {
+  background: #f1f5f9;
+  border-radius: 40px;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.timer-label {
+  display: block;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 12px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.timer div {
+  background: white;
+  padding: 10px 18px;
+  border-radius: 20px;
+  min-width: 80px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.timer span:first-child {
+  font-size: 32px;
+  font-weight: 800;
+  color: #ff5c8a;
+  display: block;
+}
+
+.timer span:last-child {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #475569;
+}
+
+.price-box {
+  margin: 30px 0;
+}
+
+.old-price {
+  font-size: 24px;
+  color: #94a3b8;
+  text-decoration: line-through;
+}
+
+.price-box h3 {
+  font-size: 54px;
+  margin: 10px 0;
+}
+
+.price-box h3 span {
+  color: #ff5c8a;
+}
+
+.installment {
+  font-size: 16px;
+  color: #475569;
+}
+
+.offer-list {
+  list-style: none;
+  margin: 30px 0;
+  text-align: left;
+  display: inline-block;
+}
+
+.offer-list li {
+  margin-bottom: 14px;
+  font-size: 18px;
+}
+
+/* BOX DE SEGURANÇA - IMAGEM CENTRALIZADA */
+.secure-box {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 20px;
+}
+
+.secure-box img {
+  display: block;
+  margin: 10px auto 0;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
+
+.guarantee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background: #fef9c3;
+  border-radius: 60px;
+  padding: 12px 24px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.guarantee p {
+  font-size: 14px;
+  text-align: left;
+}
+
+/* FOOTER */
+footer {
+  background: #0f172a;
+  color: #cbd5e1;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-small {
+  font-size: 12px;
+  margin-top: 15px;
+  opacity: 0.7;
+}
+
+/* ================================= */
+/* RESPONSIVIDADE COMPLETA (mobile) */
+/* ================================= */
+@media (max-width: 900px) {
+  .hero-text h1 {
+    font-size: 40px;
+  }
+  .pain-section h2, .solution-text h2, .bonus-section h2, .testimonial-section h2 {
+    font-size: 32px;
+  }
+  .price-box h3 {
+    font-size: 42px;
+  }
+  .offer-box {
+    padding: 40px 20px;
+  }
+  section {
+    padding: 60px 0;
+  }
+}
+
+/* Ajustes específicos para tablets e celulares */
+@media (max-width: 768px) {
+  /* Imagem do hero (ebook) */
+  .hero-image {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+  .ebook-card {
+    padding: 12px;
+  }
+  
+  /* Imagem da solução */
+  .solution-image {
+    max-width: 260px;
+    margin: 0 auto 30px;
+  }
+  
+  /* Ordem dos elementos no hero (imagem por cima ou por baixo - mantenho texto primeiro para conversão) */
+  .hero-grid {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .hero-buttons {
+    justify-content: center;
+  }
+  
+  .stats {
+    justify-content: center;
+  }
+  
+  /* Ajuste dos cards de dor (pain-section) */
+  .pain-grid {
+    gap: 20px;
+  }
+  .pain-card {
+    padding: 30px 16px;
+  }
+  .pain-card span {
+    font-size: 42px;
+  }
+  .pain-card h3 {
+    font-size: 20px;
+    margin: 12px 0 8px;
+  }
+  .pain-card p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
+  /* Solução: empilha e centraliza */
+  .solution-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .solution-text ul {
+    text-align: left;
+    display: inline-block;
+  }
+  
+  /* Cronômetro mais compacto */
+  .timer {
+    gap: 12px;
+  }
+  .timer div {
+    min-width: 60px;
+  }
+  .btn-primary, .btn-buy {
+    padding: 14px 24px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Ajuste extra para celulares muito pequenos */
+@media (max-width: 480px) {
+  .ebook-card {
+    max-width: 240px;
+  }
+  .solution-image {
+    max-width: 220px;
+  }
+  .secure-box img {
+    max-width: 280px;
+  }
+}
