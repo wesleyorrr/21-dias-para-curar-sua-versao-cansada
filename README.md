@@ -10,9 +10,7 @@ Uma página desenvolvida para apresentar o produto digital *21 Dias para Curar s
 
 Veja a demonstração animada da landing page:
 
-![Demonstração da landing page](assets/demo.gif)
-
-> Se o GIF não aparecer, verifique se o arquivo está salvo em `assets/demo.gif` e se foi enviado para o GitHub.
+![Demonstração da landing page](https://github.com/wesleyorrr/21-dias-para-curar-sua-versao-cansada/blob/main/img/gif.gif)
 
 ---
 
