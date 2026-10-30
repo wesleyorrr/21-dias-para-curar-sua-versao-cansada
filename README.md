@@ -63,7 +63,3 @@ Oferecer uma **vitrine digital profissional** para um produto digital, permitind
 
 ![Demonstração da landing page](https://github.com/wesleyorrr/21-dias-para-curar-sua-versao-cansada/blob/main/img/gif.gif)
 
----
-
-## 📁 Estrutura do projeto
-
