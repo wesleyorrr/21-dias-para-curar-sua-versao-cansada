@@ -1,101 +1,69 @@
 # 📖 21 Dias para Curar sua Versão Cansada
 
-**Landing page para apresentação e divulgação de um livro digital | Projeto de desenvolvimento web**
+> **Landing page** para apresentação e divulgação de um **livro digital** — projeto de desenvolvimento web com foco em apresentação visual, comunicação com o público e conversão para compra.
 
-Uma página desenvolvida para apresentar o produto digital *21 Dias para Curar sua Versão Cansada*, com foco em apresentação visual, comunicação com o público e direcionamento para compra.
+Página estática desenvolvida com **HTML, CSS e JavaScript**, construída para apresentar o produto digital *21 Dias para Curar sua Versão Cansada* de forma organizada, comunicativa e orientada à ação do visitante.
 
 ---
 
-## 🎬 Demonstração do projeto
+## 📖 Sobre o projeto
 
-Veja a demonstração animada da landing page:
+Este projeto consiste em uma **landing page** criada para divulgação de um livro digital na plataforma **Eduzz**. A proposta é apresentar o produto ao visitante de maneira clara, comunicar sua finalidade e facilitar o acesso à página de compra.
+
+A página foi pensada como peça de **marketing digital**, unindo design limpo, hierarquia visual bem definida e chamadas para ação (CTA) que direcionam o usuário à oferta.
+
+### 🎯 Problema que resolve
+
+Oferecer uma **vitrine digital profissional** para um produto digital, permitindo que o visitante compreenda a proposta do livro e seja direcionado à compra de forma intuitiva — sem depender de plataformas genéricas de e-commerce.
+
+### 👥 Público-alvo
+
+- Pessoas interessadas em desenvolvimento pessoal e bem-estar emocional
+- Visitantes vindos de campanhas de divulgação
+- Potenciais compradores do livro digital
+
+---
+
+## ✨ Funcionalidades
+
+- Apresentação visual do produto digital 📖
+- Layout responsivo e hierarquia visual bem definida
+- Comunicação clara da proposta do livro
+- Direcionamento do visitante para a página de compra (Eduzz)
+- Animações e interatividade com JavaScript
+- Estrutura leve, sem dependências externas pesadas
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+| Tecnologia | Finalidade |
+|---|---|
+| **HTML5** | Estrutura semântica e conteúdo da página |
+| **CSS3** | Estilização, layout responsivo e apresentação visual |
+| **JavaScript Vanilla** | Interatividade da interface e animações |
+
+---
+
+## 🧠 Decisões técnicas & aprendizados
+
+- **Página estática com foco em conversão**: estrutura pensada para guiar o visitante da apresentação do produto até a oferta, com CTAs bem posicionados.
+- **Separação de responsabilidades**: `index.html` (estrutura), `style.css` (apresentação) e `script.js` (comportamento) organizados de forma clara.
+- **Vanilla JS em vez de frameworks**: escolha consciente para manter o bundle leve, carregamento rápido e código de fácil manutenção.
+- **Responsividade mobile-first**: boa parte do tráfego de campanhas vem de dispositivos móveis, então o layout foi pensado para funcionar bem neles.
+- **Integração com plataforma externa**: direcionamento para a página de compra na Eduzz, mantendo a landing page focada apenas em apresentação e conversão.
+
+---
+
+## 📷 Demonstração
+
+🔗 [**Acessar o projeto**](https://wesleyorrr.github.io/21-dias-para-curar-sua-versao-cansada/)
+
+🎬 **Demonstração animada:**
 
 ![Demonstração da landing page](https://github.com/wesleyorrr/21-dias-para-curar-sua-versao-cansada/blob/main/img/gif.gif)
 
 ---
 
-## ✨ Sobre o projeto
+## 📁 Estrutura do projeto
 
-Este projeto consiste em uma landing page criada para uma iniciativa de divulgação de um livro digital na plataforma Eduzz.
-
-A proposta é apresentar o produto ao visitante de maneira organizada, comunicar sua finalidade e facilitar o acesso à página de compra.
-
-### 🎯 Objetivos do projeto
-
-- Apresentar o livro digital.
-- Desenvolver uma página de divulgação de produto.
-- Organizar as informações em uma interface visual.
-- Facilitar a navegação do visitante.
-- Direcionar potenciais compradores para a oferta.
-
----
-
-## 🛠️ Tecnologias utilizadas
-
-| Tecnologia | Finalidade |
-|---|---|
-| HTML5 | Estrutura e conteúdo da página |
-| CSS3 | Estilização e apresentação visual |
-| JavaScript | Interatividade da interface |
-
----
-
-## 📂 Estrutura do projeto
-
-```text
-21-dias-para-curar-sua-versao-cansada/
-│
-├── img/
-│   └── Imagens utilizadas no projeto
-│
-├── assets/
-│   └── demo.gif
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
-
-*Observação: a pasta `assets/` deve ser criada caso ainda não exista. Ajuste a estrutura acima conforme os arquivos reais do repositório.*
-
----
-
-## 🚀 Como visualizar o projeto
-
-1. Acesse o repositório no GitHub.
-2. Clique no botão **Code**.
-3. Selecione **Download ZIP**.
-4. Extraia os arquivos para uma pasta no computador.
-5. Abra o arquivo `index.html` em um navegador.
-
-A visualização local pode depender de recursos externos ou configurações adicionais, caso existam.
-
----
-
-## 💼 Projeto disponível para negociação
-
-Este projeto está sendo apresentado para avaliação comercial e possível negociação de transferência.
-
-A negociação poderá envolver os arquivos-fonte da landing page e outros itens expressamente acordados entre as partes.
-
-**Condições a definir com o comprador:**
-- Valor de venda.
-- Direitos de uso e possibilidade de alteração.
-- Transferência dos arquivos e dos ativos incluídos.
-- Suporte ou serviços adicionais, se houver.
-
-A venda dos arquivos da landing page não implica automaticamente a transferência dos direitos sobre o livro, da conta da Eduzz, de dados de clientes ou de outros ativos que não estejam expressamente incluídos no acordo.
-
----
-
-## 👨‍💻 Desenvolvedor
-
-**Wesley Oliveira**
-
-- GitHub: [@wesleyorrr](https://github.com/wesleyorrr)
-- Repositório: [21 Dias para Curar sua Versão Cansada](https://github.com/wesleyorrr/21-dias-para-curar-sua-versao-cansada)
-
----
-
-*Projeto de desenvolvimento web para apresentação e divulgação de produto digital.*
